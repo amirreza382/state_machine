@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/state_machine.dir/main.cpp.o CMakeFiles/state_machine.dir/StateMachine.cpp.o -o state_machine 
+/usr/bin/c++ -g CMakeFiles/state_machine.dir/main.cpp.o CMakeFiles/state_machine.dir/StateMachine.cpp.o CMakeFiles/state_machine.dir/src/input/input.cpp.o -o state_machine 

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug"
+			"value" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -679,7 +679,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine"
+			"value" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1247,7 +1247,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug"
+			"value" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug"
 		},
 		{
 			"name" : "state_machine_IS_TOP_LEVEL",
@@ -1271,7 +1271,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine"
+			"value" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine"
 		}
 	],
 	"kind" : "cache",

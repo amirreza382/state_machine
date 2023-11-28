@@ -140,8 +140,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug",
-		"source" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine"
+		"build" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug",
+		"source" : "/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine"
 	},
 	"version" : 
 	{

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/state_machine
+CMAKE_SOURCE_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug/CMakeFiles /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug/CMakeFiles /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/input/input.o: src/input/input.cpp.o
+.PHONY : src/input/input.o
+
+# target to build an object file
+src/input/input.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/src/input/input.cpp.o
+.PHONY : src/input/input.cpp.o
+
+src/input/input.i: src/input/input.cpp.i
+.PHONY : src/input/input.i
+
+# target to preprocess a source file
+src/input/input.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/src/input/input.cpp.i
+.PHONY : src/input/input.cpp.i
+
+src/input/input.s: src/input/input.cpp.s
+.PHONY : src/input/input.s
+
+# target to generate assembly for a file
+src/input/input.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/src/input/input.cpp.s
+.PHONY : src/input/input.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +216,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/input/input.o"
+	@echo "... src/input/input.i"
+	@echo "... src/input/input.s"
 .PHONY : help
 
 

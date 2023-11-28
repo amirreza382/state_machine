@@ -8,4 +8,5 @@ add_executable(state_machine main.cpp
         StateMachine.h
         StateMachine.h
         inc/Input/input.h
-        inc/Input/input.h)
+        inc/Input/input.h
+        src/input/input.cpp)

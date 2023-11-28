@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/state_machine
+CMAKE_SOURCE_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/state_machine.dir/depend.make
@@ -72,44 +72,60 @@ include CMakeFiles/state_machine.dir/flags.make
 CMakeFiles/state_machine.dir/main.cpp.o: CMakeFiles/state_machine.dir/flags.make
 CMakeFiles/state_machine.dir/main.cpp.o: ../main.cpp
 CMakeFiles/state_machine.dir/main.cpp.o: CMakeFiles/state_machine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/state_machine.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_machine.dir/main.cpp.o -MF CMakeFiles/state_machine.dir/main.cpp.o.d -o CMakeFiles/state_machine.dir/main.cpp.o -c /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/state_machine.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_machine.dir/main.cpp.o -MF CMakeFiles/state_machine.dir/main.cpp.o.d -o CMakeFiles/state_machine.dir/main.cpp.o -c /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/main.cpp
 
 CMakeFiles/state_machine.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/state_machine.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/main.cpp > CMakeFiles/state_machine.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/main.cpp > CMakeFiles/state_machine.dir/main.cpp.i
 
 CMakeFiles/state_machine.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/state_machine.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/main.cpp -o CMakeFiles/state_machine.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/main.cpp -o CMakeFiles/state_machine.dir/main.cpp.s
 
 CMakeFiles/state_machine.dir/StateMachine.cpp.o: CMakeFiles/state_machine.dir/flags.make
 CMakeFiles/state_machine.dir/StateMachine.cpp.o: ../StateMachine.cpp
 CMakeFiles/state_machine.dir/StateMachine.cpp.o: CMakeFiles/state_machine.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/state_machine.dir/StateMachine.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_machine.dir/StateMachine.cpp.o -MF CMakeFiles/state_machine.dir/StateMachine.cpp.o.d -o CMakeFiles/state_machine.dir/StateMachine.cpp.o -c /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/StateMachine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/state_machine.dir/StateMachine.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_machine.dir/StateMachine.cpp.o -MF CMakeFiles/state_machine.dir/StateMachine.cpp.o.d -o CMakeFiles/state_machine.dir/StateMachine.cpp.o -c /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/StateMachine.cpp
 
 CMakeFiles/state_machine.dir/StateMachine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/state_machine.dir/StateMachine.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/StateMachine.cpp > CMakeFiles/state_machine.dir/StateMachine.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/StateMachine.cpp > CMakeFiles/state_machine.dir/StateMachine.cpp.i
 
 CMakeFiles/state_machine.dir/StateMachine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/state_machine.dir/StateMachine.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/StateMachine.cpp -o CMakeFiles/state_machine.dir/StateMachine.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/StateMachine.cpp -o CMakeFiles/state_machine.dir/StateMachine.cpp.s
+
+CMakeFiles/state_machine.dir/src/input/input.cpp.o: CMakeFiles/state_machine.dir/flags.make
+CMakeFiles/state_machine.dir/src/input/input.cpp.o: ../src/input/input.cpp
+CMakeFiles/state_machine.dir/src/input/input.cpp.o: CMakeFiles/state_machine.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/state_machine.dir/src/input/input.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/state_machine.dir/src/input/input.cpp.o -MF CMakeFiles/state_machine.dir/src/input/input.cpp.o.d -o CMakeFiles/state_machine.dir/src/input/input.cpp.o -c /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/src/input/input.cpp
+
+CMakeFiles/state_machine.dir/src/input/input.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/state_machine.dir/src/input/input.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/src/input/input.cpp > CMakeFiles/state_machine.dir/src/input/input.cpp.i
+
+CMakeFiles/state_machine.dir/src/input/input.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/state_machine.dir/src/input/input.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/src/input/input.cpp -o CMakeFiles/state_machine.dir/src/input/input.cpp.s
 
 # Object files for target state_machine
 state_machine_OBJECTS = \
 "CMakeFiles/state_machine.dir/main.cpp.o" \
-"CMakeFiles/state_machine.dir/StateMachine.cpp.o"
+"CMakeFiles/state_machine.dir/StateMachine.cpp.o" \
+"CMakeFiles/state_machine.dir/src/input/input.cpp.o"
 
 # External object files for target state_machine
 state_machine_EXTERNAL_OBJECTS =
 
 state_machine: CMakeFiles/state_machine.dir/main.cpp.o
 state_machine: CMakeFiles/state_machine.dir/StateMachine.cpp.o
+state_machine: CMakeFiles/state_machine.dir/src/input/input.cpp.o
 state_machine: CMakeFiles/state_machine.dir/build.make
 state_machine: CMakeFiles/state_machine.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable state_machine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable state_machine"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/state_machine.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -121,6 +137,6 @@ CMakeFiles/state_machine.dir/clean:
 .PHONY : CMakeFiles/state_machine.dir/clean
 
 CMakeFiles/state_machine.dir/depend:
-	cd /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/akiam/OneDrive/Desktop/state_machine /mnt/c/Users/akiam/OneDrive/Desktop/state_machine /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/cmake-build-debug/CMakeFiles/state_machine.dir/DependInfo.cmake --color=$(COLOR)
+	cd /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug/CMakeFiles/state_machine.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/state_machine.dir/depend
 
