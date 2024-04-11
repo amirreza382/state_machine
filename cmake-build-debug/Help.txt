@@ -1,0 +1,14 @@
+
+WELCOME to the FUTURE ELEVATOR !
+
+Hereby we will give you some explanations for the usage of the Elevator,
+
+First , now you have to choose the floor you wish to go to , remember putting the wrong number will cuase of elevator to not to work.
+
+Second , if you have chosen the private floors , you will need an password for accssessing that floor.
+
+Third , if everything is fine and in it's place , have patience and enjoy the ride.
+
+Fifth and last , wait untill the doors open and than ..
+
+Press "M" to do again

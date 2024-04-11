@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/mnt/c/Users/akiam/OneDrive/Desktop/STATE/state_machine/state_machine/state_machine/inc
 
-CXX_FLAGS = -g
+CXX_FLAGS = -g -fsanitize=address -fno-omit-frame-pointer
 

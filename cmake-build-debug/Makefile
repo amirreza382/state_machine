@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine
+CMAKE_SOURCE_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/STATE/state_machine/state_machine/state_machine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug
+CMAKE_BINARY_DIR = /mnt/c/Users/akiam/OneDrive/Desktop/STATE/state_machine/state_machine/state_machine/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug/CMakeFiles /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/akiam/OneDrive/Desktop/STATE/state_machine/state_machine/state_machine/cmake-build-debug/CMakeFiles /mnt/c/Users/akiam/OneDrive/Desktop/STATE/state_machine/state_machine/state_machine/cmake-build-debug//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/akiam/OneDrive/Desktop/state_machine/state_machine/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/akiam/OneDrive/Desktop/STATE/state_machine/state_machine/state_machine/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -129,30 +129,6 @@ state_machine/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/build
 .PHONY : state_machine/fast
 
-StateMachine.o: StateMachine.cpp.o
-.PHONY : StateMachine.o
-
-# target to build an object file
-StateMachine.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/StateMachine.cpp.o
-.PHONY : StateMachine.cpp.o
-
-StateMachine.i: StateMachine.cpp.i
-.PHONY : StateMachine.i
-
-# target to preprocess a source file
-StateMachine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/StateMachine.cpp.i
-.PHONY : StateMachine.cpp.i
-
-StateMachine.s: StateMachine.cpp.s
-.PHONY : StateMachine.s
-
-# target to generate assembly for a file
-StateMachine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/StateMachine.cpp.s
-.PHONY : StateMachine.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -176,6 +152,30 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/Elevator/Elevator.o: src/Elevator/Elevator.cpp.o
+.PHONY : src/Elevator/Elevator.o
+
+# target to build an object file
+src/Elevator/Elevator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/src/Elevator/Elevator.cpp.o
+.PHONY : src/Elevator/Elevator.cpp.o
+
+src/Elevator/Elevator.i: src/Elevator/Elevator.cpp.i
+.PHONY : src/Elevator/Elevator.i
+
+# target to preprocess a source file
+src/Elevator/Elevator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/src/Elevator/Elevator.cpp.i
+.PHONY : src/Elevator/Elevator.cpp.i
+
+src/Elevator/Elevator.s: src/Elevator/Elevator.cpp.s
+.PHONY : src/Elevator/Elevator.s
+
+# target to generate assembly for a file
+src/Elevator/Elevator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/state_machine.dir/build.make CMakeFiles/state_machine.dir/src/Elevator/Elevator.cpp.s
+.PHONY : src/Elevator/Elevator.cpp.s
 
 src/input/input.o: src/input/input.cpp.o
 .PHONY : src/input/input.o
@@ -210,12 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... state_machine"
-	@echo "... StateMachine.o"
-	@echo "... StateMachine.i"
-	@echo "... StateMachine.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Elevator/Elevator.o"
+	@echo "... src/Elevator/Elevator.i"
+	@echo "... src/Elevator/Elevator.s"
 	@echo "... src/input/input.o"
 	@echo "... src/input/input.i"
 	@echo "... src/input/input.s"
